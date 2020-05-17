@@ -18,21 +18,29 @@
 
 
   <article>
+    <!-- Mobile navigation -->
+   <div class="mobile"><span id="navi-toggle">&#9776;</span></div>
+    <div class="mobile-navigation" id="mobile-navi">
+      <ul>
+          <li><a href="https://alinaenni.github.io/time/">Home</a></li>
+          <li><a href="https://alinaenni.github.io/time/about.html">About</a></li>
+          <li><a href="https://alinaenni.github.io/time/">Blog</a></li>
+          <li><a href="https://alinaenni.github.io/time/contact.html">Contact</a></li>
+      </ul>
+    </div> <!-- End mobile navigation -->
       <div class="container-fluid" id="wrapping">
 
 
           <div class="row">
-              <div class="col">
-                  <div class="title-section">
+              <div class="col-12-xs title-section">
                       <h1>Harmony and chaos</h1>
                       <h2>A blog about life by <strong>Marina Midas</strong></h2>
-                  </div>
               </div>
           </div>
 
 
           <div class="row">
-            <div class="col-md-3 collapse show" id="sidebar">
+            <div class="col-md-3 collapse show">
               <div class="sidebar-section">
 
               <div class="sidebar-item">
@@ -138,18 +146,18 @@ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMA
 WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE
 OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.-->
 
-
-
-  <!-- Bootstrap core JavaScript
+<!-- Script for mobile navigation toggling -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-   Menu Toggle Script
+
   <script>
-    $("#menu-toggle").click(function(e) {
+  $(document).ready(function() {
+    $("#navi-toggle").click(function(e) {
       e.preventDefault();
-      $("#wrapper").toggleClass("toggled");
+      $("#mobile-navi").toggleClass("visible");
     });
-  </script> -->
+  });
+  </script>
 
 </body>
 </html>
