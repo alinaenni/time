@@ -203,6 +203,9 @@ footer {
   font-size: 11px;
   letter-spacing: 1.5px;
 }
+footer a {
+  color: #5d9178;
+}
 .details {
   table-layout: fixed;
   width: 100%;
