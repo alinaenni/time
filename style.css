@@ -27,11 +27,11 @@ a:hover {
   padding: 0px;
 }
 .sidebar-item {
-  background-image:url('lap.jpg');
+  background-image:url('autu3.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
-  background-position: bottom left;
+  /*background-attachment: fixed; */
+  background-position: left;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -58,6 +58,7 @@ nav.navbar {
   margin: 0px;
   padding: 0px;
   left: 0;
+  margin-top: 49vh;
 }
 .navi ul {
   list-style: none;
@@ -127,40 +128,43 @@ article {
   box-sizing: border-box;
 }
 .title-section {
-  background-image: url('pink2.jpg');
+  background-image: url('marina.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
-  height: 75vh;
+  background-position: center;
+  height: 86vh;
   width: 100%;
-  text-align: center;
-  padding: 24vh 0 0 0;
+  text-align: left;
+  padding: 33vh 0 0 10vh;
   box-sizing: border-box;
   color: #fff;
 }
 .title-section h1 {
-  font-family: 'Astloch', cursive;
-  font-size: 6rem;
-  margin-bottom: 1rem;
+/*  font-family: 'Astloch', cursive; */
+  font-family: 'Yeseva One', cursive;
+  font-size: 3.5rem;
+  margin-bottom: 0.5rem;
   text-transform: none;
-  text-shadow: 0px 0px 2px rgba(0,0,0,0.8);
+  font-weight: normal;
+  text-shadow: 1px 0px 0px rgba(0,0,0,0.5);
 }
 .title-section h2 {
   font-size: 1rem;
+  padding: 0 0 0 5vh;
   letter-spacing: 1px;
   text-transform: uppercase;
-  text-shadow: 0px 0px 4px rgba(0,0,0,0.5);
+  text-shadow: 1px 0px 0px rgba(0,0,0,0.5);
 }
 .content-section h1 {
   margin-bottom: 30px;
   font-size: 20px;
   font-weight: bold;
   text-transform: none;
-  color: #5c2340;
+  color: #14613c;
 }
 .content-section h3 {
   font-size: 16px;
-  color: #a3798e;
+  color: #5d9178;
 }
 .pagi {
   width: 100%;
@@ -173,7 +177,7 @@ article {
   font-size: 14px;
 }
 .pagination a {
-  color: #5c2340;
+  color: #14613c;
   letter-spacing: 1px;
   background-color: rgba(255,255,255,0.9);
   -webkit-transition-duration: 0.2s; /* Safari */
@@ -181,7 +185,7 @@ article {
 }
 .pagination a:hover {
   color: #fff;
-  background-color: #a3798e;
+  background-color: #5d9178;
 }
 footer {
   background-color: #fff;
@@ -210,7 +214,7 @@ footer {
   padding: 7px;
 }
 .details a {
-  color: #d4a1b2;
+  color: #5d9178;
 }
 .she-pic {
   width: 260px;
