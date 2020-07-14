@@ -12,12 +12,12 @@ body {
   box-sizing: border-box;
 }
 a {
-  color: #5c2340;
+  color: #14613c;
   text-decoration: none;
 }
 a:hover {
   text-decoration: none;
-  color: #5c2340;
+  color: #14613c;
 }
 .sidebar-section {
   position: absolute;
@@ -204,7 +204,10 @@ footer {
   letter-spacing: 1.5px;
 }
 footer a {
-  color: #5d9178;
+  color: #000;
+}
+footer a:hover {
+  color: #000;
 }
 .details {
   table-layout: fixed;
