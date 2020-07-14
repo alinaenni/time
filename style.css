@@ -139,7 +139,6 @@ article {
   color: #fff;
 }
 .title-section h1 {
-/*  font-family: 'Astloch', cursive; */
   font-family: 'Yeseva One', cursive;
   font-size: 3.5rem;
   margin-bottom: 0.5rem;
@@ -243,52 +242,55 @@ footer a:hover {
 }
 @media only screen and (max-width: 768px) {
 .mobile {
-    background-image: url('net.png');
-    background-repeat: repeat;
+    background-color: rgba(0,0,0,0.8);
     display: block;
     width: 100%;
     height: 7%;
     padding: 0.5% 0px 0px 2.5%;
-    position: absolute;
+    position: fixed;
     overflow-x: hidden;
     z-index: 1;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
   }
 #mobile-navi.visible {
-    background-image: url('net.png');
-    background-repeat: repeat;
+    background-color: rgba(0,0,0,0.95);
     box-sizing: border-box;
     display: block;
-    position: absolute;
+    position: fixed;
     margin: 0px;
     top: 7%;
-    width: 55%;
     z-index: 2;
   }
 #mobile-navi.visible ul {
-    width: 100%;
     margin: 0px;
+    width: 100vw;
     text-align: center;
     list-style: none;
     padding: 0px;
   }
 #mobile-navi.visible li {
     display: block;
-    padding: 40px;
-    color: #fff;
-    font-size: 14px;
+    width: 100vw;
+    padding: 40px 0px 40px 0px;
+    color: #000;
+    font-size: 16px;
     letter-spacing: 1px;
     text-transform: uppercase;
   }
  #mobile-navi.visible a {
-   color: #d4a1b2;
+   display: block;
+   width: 100vw;
+   color: #b0b0b0;
+   font-weight: bold;
    letter-spacing: 1px;
   }
   #mobile-navi.visible a:hover {
-    color: #d4a1b2;
+    color: #b0b0b0;
+    font-weight: bold;
     letter-spacing: 1px;
    }
   li.normal {
-    border-bottom: 1px solid #3d3d3d;
+    border-bottom:1px solid rgba(255,255,255,0.05);
   }
   .surround {
     padding: 0px;
@@ -298,14 +300,21 @@ footer a:hover {
     padding: 30px;
     box-sizing: border-box;
   }
+  .title-section {
+    text-align: center;
+    padding: 36vh 0 0 0;
+    box-sizing: border-box;
+    color: #fff;
+  }
   .title-section h1 {
-    font-size: 5rem;
-    margin-bottom: 1.5rem;
+    font-size: 2.8rem;
+    margin-bottom: 1.2rem;
     text-shadow: 0px 0px 2px rgba(0,0,0,1);
   }
   .title-section h2 {
-    font-size: 1rem;
+    font-size: 1.2rem;
     letter-spacing: 1px;
+    padding: 0px;
     text-shadow: 0px 0px 2px rgba(0,0,0,1);
   }
 }
